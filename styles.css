@@ -54,7 +54,7 @@ body {
 
 /* Button Styles */
 .btn-primary {
-    background-color: #6c757d; /* Elegant muted grey */
+    background-color: #2a4761; /* Elegant muted grey */
     border-color: #6c757d;
     border-radius: 30px;
     padding: 0.6rem 1.2rem;
@@ -62,7 +62,7 @@ body {
 }
 
 .btn-outline-primary {
-    border-color: #6c757d;
+    border-color: #181818;
     color: #6c757d;
     border-radius: 30px;
     font-size: 1rem;
