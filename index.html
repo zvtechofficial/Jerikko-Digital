@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Business Card</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script> <!-- Replace this with your actual FontAwesome Kit link -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <!-- Cover Section -->
+        <div id="cover-container" class="position-relative">
+            <img src="ZVTECH-SAMPNEW.jpg" alt="Cover Photo" id="cover-photo" class="w-100">
+            
+            <!-- Profile Picture Section (Front of Cover Photo) -->
+            <img src="New-IMG_0113.jpeg" alt="Profile Picture" id="profile-pic" class="rounded-circle position-absolute">
+        </div>
+
+        <!-- Content Section (Details below the images) -->
+        <div id="content" class="text-center mt-5">
+            <h1 id="name" class="display-5">ZYRYLL JERIKKO JINIELL F. VERZOSA</h1>
+            <p id="address" class="text-muted">
+                <i class="fas fa-map-marker-alt"></i> City of San Fernando, La Union
+            </p>
+            <br>
+            <!-- Buttons -->
+            <a href="contact.vcf" download class="btn btn-primary my-2 w-75 mx-auto">
+                <i class="fas fa-address-card"></i> Save Contact
+            </a>
+            <a href="mailto:verzosazyrylljerikko@gmail.com" class="btn btn-outline-primary my-2 w-75 mx-auto">
+                <i class="fas fa-envelope"></i> Personal Email
+            </a>
+            <a href="tel:+639209676435" class="btn btn-outline-success my-2 w-75 mx-auto">
+                <i class="fas fa-phone"></i> Mobile Phone
+            </a>
+        </div>
+
+        <!-- Footer Section -->
+        <footer class="text-center py-4 mt-5">
+            <p class="font-weight-bold">ZVTech</p>
+            <nav>
+                <a href="mailto:zjjverzosa@gmail.com" class="text-muted">Email</a> | 
+                <a href="tel:+639493443122" class="text-muted">Phone</a>
+            </nav>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the body takes up at least the full height of the viewport */
+}
+
+/* Cover Section */
+#cover-container {
+    position: relative;
+    height: 250px; /* Cover photo height */
+}
+
+#cover-photo {
+    object-fit: cover;
+    height: 95%;
+}
+
+/* Profile Picture */
+#profile-pic {
+    width: 150px; /* Further reduced size */
+    height: 150px; /* Further reduced size */
+    position: absolute;
+    top: 150px; /* Adjusted to fit better */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    border: 4px solid #fff;
+    border-radius: 50%; /* Circular border */
+}
+
+/* Name and Title */
+#name {
+    font-size: 1.3rem; /* Reduced name size */
+    font-weight: 700;
+    margin-top: 70px; /* Adds space between name and profile picture */
+}
+
+#title {
+    font-size: 1.1rem; /* Slightly smaller title size */
+    font-weight: bold;
+    color: #0084d0;
+    font-style: italic;
+    margin-top: -5px;
+}
+
+#address {
+    font-size: 0.9rem; /* Reduced address size */
+    color: #777;
+    margin-top: -10px;
+}
+
+#address i {
+    margin-right: 8px;
+}
+
+/* Button Styles */
+.btn {
+    display: block;
+    width: calc(100% - 40px);
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #4669f5;
+    color: #fff;
+    border: none;
+}
+
+.btn-outline-primary {
+    background-color: transparent;
+    color: #4669f5;
+    border: 2px solid #4669f5;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    color: #28a745;
+    border: 2px solid #28a745;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 10px;  /* Adjusted padding */
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 50px;  /* Adjust margin to move footer up */
+    position: relative;  /* Ensures footer positioning */
+}
+
+/* Footer text styling */
+footer p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: -50px;
+}
+
+footer nav a {
+    font-size: 0.9rem;
+    color: #777;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
